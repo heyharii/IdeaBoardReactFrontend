@@ -1,9 +1,9 @@
-import React, { Component } from 'react' 
-import axios from 'axios'
-import Idea from './Idea'
-import IdeaForm from './IdeaForm'
-import update from 'immutability-helper'
-import Notification from './Notification'
+import React, { Component } from 'react';
+import axios from 'axios';
+import Idea from './Idea';
+import IdeaForm from './IdeaForm';
+import update from 'immutability-helper';
+import Notification from './Notification';
 
 class IdeasContainer extends Component {
   constructor(props) {
